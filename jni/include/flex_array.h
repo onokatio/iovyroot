@@ -2,6 +2,7 @@
 #define FLEX_ARRAY_H
 
 #include <fcntl.h>
+#include <sys/user.h>
 
 #define FLEX_ARRAY_PART_SIZE PAGE_SIZE
 #define FLEX_ARRAY_BASE_SIZE PAGE_SIZE

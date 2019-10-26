@@ -4,6 +4,7 @@
 #include "sidtab.h"
 #include "policydb.h"
 #include "getroot.h"
+#include <errno.h>
 
 #define __user
 #define __kernel
